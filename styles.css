@@ -1,0 +1,109 @@
+.wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.task-block {
+    padding: 20px;
+    background-color: aqua;
+}
+
+.task-title {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.task-level-title {
+    margin: 0;
+}
+
+.task-input {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.task-textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.task-level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-priority {
+    display: block;
+}
+
+.todo-title {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.todo-container {
+    padding: 0 10px;
+}
+
+.todo-container-title {
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+.todo-container-item {
+    border: 1px solid black;
+}
+
+.trash {
+    cursor: pointer;
+}
+
+.todo-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20px 1fr 3fr 30px;
+    grid-column-gap: 20px;
+    align-items: center;
+}
+
+.todo-low {
+    background-color: green;
+}
+
+.todo-mid {
+    background-color: yellow;
+}
+
+.todo-high {
+    background-color: red;
+}
+
+.todo-checked {
+    text-decoration: line-through;
+}
+
+.basket {
+    display: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Lesson12</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="task-block">
+            <form action="#">
+                <h2>Додати завдання</h2>
+                <div>
+                    <label class="task-title">Завдання</label>
+                    <input type="text" id="title" name="title" class="task-input">
+                </div>
+                <div class="">
+                    <label class="task-title">Детальний опис</label>
+                    <textarea name="todo" id="todo" class="task-input task-textarea"></textarea>
+                </div>
+                <div class="task-level">
+                    <p class="task-title task-level-title">Рівень складності</p>
+                    <select name="priority" id="priority" class="task-priority">
+                        <option>Low</option>
+                        <option>Mid</option>
+                        <option>High</option>
+                    </select>
+                </div>
+                <button id="button" class="button">Додати</button>
+            </form>
+        </div>
+        <div class="todo-block">
+            <h1 id="list" class="todo-title">Перелік задач</h1>
+            <div id="todo-container" class="todo-container">
+
+            </div>
+        </div>
+        
+        
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/b478714518.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
